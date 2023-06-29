@@ -1,0 +1,108 @@
+/* Font family export */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Global variables */
+:root {
+  --text-color: var(seashell);
+  --bg-color: var(black)
+}
+
+.text-center {
+  text-align: center;
+
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Design system */
+
+h2 {
+  font-weight: 700;
+  color: seashell;
+  font-family: helvetica;
+  font-size: 38px;
+}
+
+h4 {
+  color: seashell;
+  font-family: helvetica;
+  font-size: 26px;
+}
+
+/* Web layout */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  border-bottom: 1px solid seashell;
+  padding: 0 10px;
+}
+
+.logo {
+  height: 50px;
+  opacity: 0.9;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 16px
+}
+
+.list-item a {
+  color: seashell;
+  font-size: 22px;
+
+}
+
+/* Our mission banner */
+.banner-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  max-height: 700px;
+  position: relative;
+}
+
+.banner-text-container {
+  padding: 10px 0px;
+  background-color: black;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+/* Tea of the month */
+
+
+
+
+
+
+
+
+/* locations */
+
+
+
+/* The tea Coazy contact */
