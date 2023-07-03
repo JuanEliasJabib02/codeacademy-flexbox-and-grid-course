@@ -20,7 +20,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+p {
   text-align: center;
   color: seashell;
   font-family: helvetica;
@@ -198,3 +199,16 @@ p {
 
 
 /* The tea Coazy contact */
+.footer {
+  margin-top: 10px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
