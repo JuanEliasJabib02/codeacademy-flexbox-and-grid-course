@@ -15,8 +15,15 @@ ul {
   --bg-color: var(black)
 }
 
-.text-center {
+.text-center,
+h1,
+h2,
+h3,
+h4,
+h5 {
   text-align: center;
+  color: seashell;
+  font-family: helvetica;
 
 }
 
@@ -30,21 +37,31 @@ body {
 }
 
 /* Design system */
+h2,
+p {
+  font-weight: 700;
+}
 
 h2 {
   font-weight: 700;
-  color: seashell;
-  font-family: helvetica;
   font-size: 38px;
-  text-align: center;
 }
 
-h4 {
-  color: seashell;
-  font-family: helvetica;
+h3 {
   font-size: 22px;
-  text-align: center;
 }
+
+
+h4,
+h5 {
+  font-size: 24px;
+}
+
+
+p {
+  font-size: 18px;
+}
+
 
 /* Web layout */
 
@@ -122,16 +139,62 @@ h4 {
   gap: 20px;
 }
 
+.cake {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .cake img {
   width: 300px;
 }
 
+.cake h2 {
+  margin-top: 10px;
+}
 
 
 
 
 /* locations */
 
+.locations-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1d3jd2n*_ga*MTcwNjQ4MzU5MC4xNjg4MTczNzAy*_ga_3LRZM6TM9L*MTY4ODQxNjgwOC4xNy4xLjE2ODg0MjEzODkuNTYuMC4w");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.locations-container h2 {
+  margin-bottom: 10px;
+
+}
+
+.location-wrapper,
+.location {
+  gap: 40px;
+}
+
+.location-wrapper {
+  display: flex;
+
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
 
 
 /* The tea Coazy contact */
