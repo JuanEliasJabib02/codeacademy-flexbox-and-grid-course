@@ -1,1 +1,1 @@
-# codeacademy-flexbox-and-grid-course
+Off platforms projects of the course
